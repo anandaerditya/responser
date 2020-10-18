@@ -6,7 +6,7 @@
  * Time: 18:22
  */
 
-namespace anandaerditya\Http\Response;
+namespace anandaerditya\Closure\Response;
 
 
 class Response
