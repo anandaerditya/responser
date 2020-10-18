@@ -1,0 +1,18 @@
+{
+    "name": "anandaerditya/responser",
+    "description": "Generate simple response with JSON Format.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ananda Erditya",
+            "email": "ananda.erditya@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "\\anandaerditya\\Http\\Response\\": "src/"
+        }
+    }
+}
