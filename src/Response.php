@@ -15,18 +15,18 @@ class Response
         switch ($message_type){
             case 'error':
                 // Generate Response
-                $response = ['brand' => $brand, 'status' => 500, 'state' => 'Error', 'message' => $content];
-                return response()->json($response);
+                $response = ['brand' => $brand, 'status' => 500, 'state' => 'Error', 'message' => $content]; 
+                return response()->json($response); 
             break;
             case 'success':
                 // Generate Response
-                $response = ['brand' => $brand, 'status' => 200, 'state' => 'OK', 'message' => $content];
-                return response()->json($response);
+                $response = ['brand' => $brand, 'status' => 200, 'state' => 'OK', 'message' => $content]; 
+                return response()->json($response); 
             break;
             default:
                 // Generate Response
-                $response = ['brand' => $brand, 'status' => 'unknown', 'state' => 'unknown', 'message' => $content];
-                return response()->json($response);
+                $response = ['brand' => $brand, 'status' => 'unknown', 'state' => 'unknown', 'message' => $content]; 
+                return response()->json($response); 
             break;
         }
     }
