@@ -33,7 +33,7 @@ class Response
 
     public static function fetch($brand, $data){
         // Send the response
-        $response = ['brand' => $brand, 'status' => 200, 'message' => 'OK', 'result' => $data]];
+        $response = ['brand' => $brand, 'status' => 200, 'message' => 'OK', 'result' => $data];
         return response()->json($response);
     }
 }
